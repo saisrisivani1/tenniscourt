@@ -69,7 +69,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("Player and Ball Detection Application 🏓🏓🎾”)
+st.title("Player and Ball Detection Application 🏓🏓🎾")
 st.write("Upload a video to detect players and balls using the YOLOv5 model.")
 
 # File uploader for video input
