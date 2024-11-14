@@ -1,5 +1,5 @@
-streamlit==1.25.0                # Latest stable version of Streamlit
-torch==2.0.1                     # PyTorch for YOLOv5
+streamlit               # Latest stable version of Streamlit
+torch                    # PyTorch for YOLOv5
 ultralytics                      # YOLOv5 package (if using ultralytics' library)
 opencv-python-headless           # OpenCV without GUI support
 numpy                            # Numerical operations
