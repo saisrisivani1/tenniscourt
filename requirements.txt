@@ -27,6 +27,7 @@ ultralytics>=8.2.34  # https://ultralytics.com
 pandas>=1.1.4
 seaborn>=0.11.0
 streamlit
+
 opencv-python-headless
 torch
 numpy
