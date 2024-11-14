@@ -12,7 +12,7 @@ from utils.general import non_max_suppression, scale_boxes
 from utils.torch_utils import select_device
 
 # Load the custom YOLOv5 model
-model_path = 'runs/train/ball_person_model2/weights/best.pt'
+model_path = 'runs/train/exp/weights/best.pt'
 device = select_device('')  # Use CUDA if available
 model = DetectMultiBackend(model_path, device=device, dnn=False)
 img_size = 640  # Set input size to 640x640 for model
