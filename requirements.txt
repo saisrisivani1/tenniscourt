@@ -1,5 +1,13 @@
-streamlit
-opencv-python-headless
-torch
-numpy
-ultralytics
+streamlit==1.25.0                # Latest stable version of Streamlit
+torch==2.0.1                     # PyTorch for YOLOv5
+ultralytics                      # YOLOv5 package (if using ultralytics' library)
+opencv-python-headless           # OpenCV without GUI support
+numpy                            # Numerical operations
+pandas                           # Data manipulation, if needed
+Pillow                           # Image processing
+matplotlib                       # Plotting, if needed
+requests                         # For making HTTP requests, if needed
+scipy                            # Scientific computing, if required
+
+# Any additional dependencies your app specifically uses:
+# Add other packages if your app relies on them
